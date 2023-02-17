@@ -1,0 +1,10 @@
+---
+httpd_port: "80"
+httpd_owner: "apache"
+httpd_group: "apache"
+httpd_domain: "example.com"
+mysql_root_password: "mysqlroot@123"
+mysql_db: "wordpress"
+mysql_user: "wordpress"
+mysql_password: "wordpress@123"
+wp_url: "https://wordpress.org/wordpress-6.1.1.tar.gz"
