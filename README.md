@@ -36,10 +36,10 @@ Once it is done, we can create the inventory file, which contains the details of
 
 You can group the servers as per your requirement.
 
-In our example, we are passing the required fileds such as mysql root password, wordpress db name, user etc, so that if you need to update these values, you only need to update the variables.yml file.
-also ,we are copying the files such as wp-config.php, virtual host files from the hostmachine using the template module.
+In our example, we are passing the required fields such as MySQL root password, wordpress db name, user etc, so that if you need to update these values, you only need to update the variables.yml file.
+also ,we are copying the files such as wp-config.php and virtual host files from the host machine using the template module.
 
-While running the playbook it will complte the following tasks/operations.
+While running the playbook it will complete the following tasks/operations.
 
 - Installation of apache on the remote machines
 - PHP installation
@@ -65,14 +65,14 @@ Now we can run our playbook using the following command.
 ```
  $ansible-playbook -i inventory.txt wordpress-playbook.yml
 ```
-You will get the output as following, also you can check the progress of task execution.
+You will get the output as follows, also you can check the progress of task execution.
 
 Once the execution is completed, will be able to access wordpress from browser by using the public DNS and you can proceed with setting up wordpress.
 
 ![wordpress](https://user-images.githubusercontent.com/61390678/219599397-f4cead59-b597-471a-b17e-212cac3609d9.png)
 
 
-Please have a check and let me know the suggessions :).
+Please have a check and let me know your suggestions :).
 
 
 
