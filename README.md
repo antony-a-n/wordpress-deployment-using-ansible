@@ -65,7 +65,14 @@ Now we can run our playbook using the following command.
 ```
  $ansible-playbook -i inventory.txt wordpress-playbook.yml
 ```
+inventory.txt contains the details of your remote machines.
+
 You will get the output as follows, also you can check the progress of task execution.
+
+![p1](https://user-images.githubusercontent.com/61390678/219840328-3fb07d30-0def-4453-b737-77388681eef7.png)
+
+![p2](https://user-images.githubusercontent.com/61390678/219840393-35772503-094f-41b0-8bf2-615e4ab310ab.png)
+
 
 Once the execution is completed, will be able to access wordpress from browser by using the public DNS and you can proceed with setting up wordpress.
 
